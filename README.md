@@ -2,8 +2,6 @@
 
 Welcome to **ConnectX**, an AI-enhanced video conferencing solution, powered by LiveKit and advanced technologies like noise filtering and real-time collaboration. This repository contains the source code for the **ConnectX** video conferencing app, designed for seamless communication with high performance and security.
 
-![ConnectX Logo](https://raw.githubusercontent.com/IBMTechXChange/ConnectX/refs/heads/main/assets/images/logo.png)
-
 ## Features
 - **AI-Enhanced Video Conferencing**: Leverage advanced video and audio enhancements, including the **Krisp Noise Filter**.
 - **LiveKit Integration**: Integrates with the [LiveKit](https://livekit.io) SDK for real-time video and audio streaming.
