@@ -1,5 +1,5 @@
 {
-  "name": "livekit-meet",
+  "name": "connectx",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
     "@livekit/components-react": "2.5.4",
     "@livekit/components-styles": "1.1.2",
     "@livekit/krisp-noise-filter": "^0.2.8",
+    "connectx": "file:",
     "livekit-client": "2.5.2",
-    "livekit-meet": "file:",
     "livekit-server-sdk": "2.6.2",
     "next": "14.2.12",
     "react": "18.3.1",
