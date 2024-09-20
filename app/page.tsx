@@ -1,5 +1,4 @@
 'use client';
-import 'regenerator-runtime/runtime';
 import { useRouter } from 'next/navigation';
 import React, { Suspense, useState } from 'react';
 import { encodePassphrase, generateRoomId, randomString } from '@/lib/client-utils';
