@@ -1,8 +1,10 @@
 'use client';
+import 'regenerator-runtime/runtime';
 import { useRouter } from 'next/navigation';
 import React, { Suspense, useState } from 'react';
 import { encodePassphrase, generateRoomId, randomString } from '@/lib/client-utils';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image';
 
 function ConnectXMeetingTab() {
   const router = useRouter();
@@ -34,12 +36,12 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header" style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
-          <img //eslint-disable-line
-            src="https://raw.githubusercontent.com/IBMTechXChange/SuiteX/refs/heads/main/public/logo.png?token=GHSAT0AAAAAACNOUOCSF32J624FWQQPFOD4ZXNKGKA"  
-            alt="ConnectX" 
-            width="80" 
-            height="80" 
-          /> 
+          <Image
+          src='/logo.png' 
+          alt='ConnectX' 
+          width={100} 
+          height={100}
+          />
           <h2 style={{ marginLeft: '1rem', color: '#000' }}> 
             Discover {' '}
             <a 
