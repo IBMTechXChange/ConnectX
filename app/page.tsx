@@ -35,7 +35,7 @@ export default function Page() {
       <main className={styles.main} data-lk-theme="default">
         <div className="header" style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
           <img //eslint-disable-line
-            src="https://raw.githubusercontent.com/IBMTechXChange/ConnectX/refs/heads/main/assets/images/logo.png"  
+            src="https://raw.githubusercontent.com/IBMTechXChange/SuiteX/refs/heads/main/public/logo.png?token=GHSAT0AAAAAACNOUOCSF32J624FWQQPFOD4ZXNKGKA"  
             alt="ConnectX" 
             width="80" 
             height="80" 
