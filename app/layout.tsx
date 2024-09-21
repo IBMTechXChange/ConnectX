@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   icons: {
     icon: {
       rel: 'icon',
-      url: '/favicon.ico',
+      url: 'https://raw.githubusercontent.com/IBMTechXChange/ConnectX/refs/heads/main/public/favicon.ico',
     },
     apple: [
       {
